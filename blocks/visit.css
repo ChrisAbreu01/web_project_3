@@ -71,7 +71,7 @@
     margin: 0 0 32px 0;
 }
 
-.visit__rights {
+.copyrights {
     font-family: 'Inter';
     font-style: normal;
     font-weight: 400;
@@ -132,7 +132,7 @@
         height: 254px;
         z-index: -1;
     }
-    .visit__rights {
+    .copyrights {
         font-family: 'Inter';
         font-style: normal;
         font-weight: 400;
