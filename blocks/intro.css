@@ -1,0 +1,97 @@
+        .intro {
+            max-width: 61.37vw;
+            margin: 92px 0 0 148px;
+        }
+        
+        .intro__title {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 900;
+            font-size: 54px;
+            line-height: 58px;
+            margin: 0 0 40px 0;
+            color: #FFFFFF;
+        }
+        
+        .intro__subtitle {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 34px;
+            margin-bottom: 10px;
+            color: #FFFFFF;
+        }
+        
+        .intro__subtitle-name {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 34px;
+            margin-bottom: 32px;
+            text-align: right;
+            color: #FFFFFF;
+        }
+        
+        .intro__body {
+            font-family: 'Inter';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 163%;
+            color: #FFFFFF;
+        }
+        
+        @media screen and (max-width: 1000px) {
+            .intro {
+                max-width: 720px;
+                margin: 88px 24px 0 24px;
+                max-height: 548px;
+                width: 94%;
+            }
+        }
+        
+        @media screen and (max-width: 600px) {
+            .intro {
+                max-width: 720px;
+                margin: 64px 16px 0 16px;
+                max-height: 886px;
+                width: 94%;
+            }
+            .intro__title {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 900;
+                font-size: 32px;
+                line-height: 35px;
+                color: #FFFFFF;
+            }
+            .intro__subtitle {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 30px;
+                color: #FFFFFF;
+                margin: 0 0 10px 0;
+            }
+            .intro__subtitle-name {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 24px;
+                line-height: 34px;
+                text-align: right;
+                color: #FFFFFF;
+                margin: 0;
+            }
+            .intro__body {
+                font-family: 'Inter';
+                font-style: normal;
+                font-weight: 400;
+                font-size: 16px;
+                line-height: 163%;
+                color: #FFFFFF;
+            }
+        }
