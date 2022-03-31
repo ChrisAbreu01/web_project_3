@@ -65,6 +65,23 @@
     background: #0063d2;
 }
 
+.visit__fieldset-button-area {
+    border: none;
+    padding: 0;
+    margin: 0 0 32px 0;
+}
+
+.visit__copyrights {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 92px auto 0 auto;
+}
+
 @media screen and (max-width: 1000px) {
     .visit__content {
         position: absolute;
@@ -114,5 +131,15 @@
         width: 320px;
         height: 254px;
         z-index: -1;
+    }
+    .visit__copyrights {
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        text-align: center;
+        color: #FFFFFF;
+        margin: 64px auto 0 auto;
     }
 }
