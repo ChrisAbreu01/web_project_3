@@ -23,6 +23,8 @@
     text-align: center;
     color: #FFFFFF;
     margin: 0 0 32px 0;
+    list-style: none;
+    padding: 0;
 }
 
 .visit__backgound {
