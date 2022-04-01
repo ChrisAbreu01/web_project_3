@@ -86,9 +86,8 @@
     .visit__content {
         position: absolute;
         width: 656px;
-        height: 254px;
-        left: 56px;
-        bottom: 185px;
+        left: 173px;
+        bottom: 240px;
     }
     .visit__form {
         max-width: 21%;
@@ -100,7 +99,6 @@
     .visit__content {
         position: absolute;
         width: 288px;
-        height: 163px;
         left: 28px;
         bottom: 108px;
     }

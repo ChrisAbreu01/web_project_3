@@ -1,97 +1,24 @@
-                    .header {
-                        width: 77vw;
-                        height: 54%;
-                        margin: 194px auto 0 auto;
-                    }
-                    
-                    .header__title {
-                        width: 100%;
-                        font-family: 'Inter';
-                        font-style: normal;
-                        font-weight: 900;
-                        font-size: 96px;
-                        line-height: 100px;
-                        margin: 0 auto 0 auto;
-                        text-align: center;
-                        color: #FFFFFF;
-                    }
-                    
-                    .header__subtitle {
-                        width: 56vw;
-                        height: 72px;
-                        margin: 32px auto 64px auto;
-                        font-family: 'Inter';
-                        font-style: normal;
-                        font-weight: 400;
-                        font-size: 30px;
-                        line-height: 36px;
-                        text-align: center;
-                        color: #FFFFFF;
-                    }
-                    
-                    .header__image {
-                        width: 77vw;
-                        height: 615px;
-                        margin: 0 auto 0 auto;
-                    }
-                    
-                    @media screen and (max-width: 1000px) {
-                        .header {
-                            width: 100%;
-                            height: 100%;
-                            margin: 194px auto 0 auto;
-                        }
-                        .header__subtitle {
-                            width: 94vw;
-                            height: 72px;
-                            margin: 32px auto 36px auto;
-                            font-family: 'Inter';
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 30px;
-                            line-height: 36px;
-                            text-align: center;
-                            color: #FFFFFF;
-                        }
-                        .header__image {
-                            width: 100vw;
-                            height: 615px;
-                            margin: 0 auto 0 auto;
-                        }
-                    }
-                    
-                    @media screen and (max-width: 600px) {
-                        .header {
-                            width: 100%;
-                            height: 100%;
-                            margin: 122px auto 0 auto;
-                        }
-                        .header__subtitle {
-                            width: 94vw;
-                            height: 72px;
-                            margin: 16px auto 40px auto;
-                            font-family: 'Inter';
-                            font-style: normal;
-                            font-weight: 400;
-                            font-size: 16px;
-                            line-height: 20px;
-                            text-align: center;
-                            color: #FFFFFF;
-                        }
-                        .header__image {
-                            width: 100vw;
-                            height: 200px;
-                            margin: 0 auto 0 auto;
-                        }
-                        .header__title {
-                            width: 90%;
-                            font-family: 'Inter';
-                            font-style: normal;
-                            font-weight: 900;
-                            font-size: 40px;
-                            line-height: 44px;
-                            text-align: center;
-                            color: #FFFFFF;
-                            margin: 0 auto 0 auto;
-                        }
-                    }
+.header__logo {
+    width: 17.59vw;
+    height: 17vh;
+    display: flex;
+    margin: 0 auto 0 auto;
+}
+
+@media screen and (max-width: 1000px) {
+    .header__logo {
+        width: 270px;
+        height: 70px;
+        display: flex;
+        margin: 0 auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header__logo {
+        width: 63vw;
+        height: 16vh;
+        display: flex;
+        margin: 0 auto 0 auto;
+    }
+}
