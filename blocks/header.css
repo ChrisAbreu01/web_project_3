@@ -2,15 +2,15 @@
     width: 17.59vw;
     height: 17vh;
     display: flex;
-    margin: 0 auto 0 auto;
+    margin: 36px auto 0 auto;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 999px) {
     .header__logo {
         width: 270px;
         height: 70px;
         display: flex;
-        margin: 0 auto 0 auto;
+        margin: 34px auto 0 auto;
     }
 }
 
@@ -19,6 +19,6 @@
         width: 63vw;
         height: 16vh;
         display: flex;
-        margin: 0 auto 0 auto;
+        margin: 20px auto 0 auto;
     }
 }

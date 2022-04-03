@@ -1,10 +1,12 @@
 .visit {
     background-repeat: no-repeat;
-    margin: 0 auto 0 auto;
+    margin: 0 48px 0 48px;
+    background-image: url(../images/__overlay.jpg);
+    min-height: 740px;
 }
 
 .visit__title {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 72px;
@@ -15,7 +17,7 @@
 }
 
 .visit__paragraf {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -34,9 +36,12 @@
 }
 
 .visit__content {
-    position: absolute;
-    bottom: 5%;
-    left: 42%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    height: 172vh;
+    width: 100%;
+    position: relative;
 }
 
 .visit__form {
@@ -47,7 +52,7 @@
 .visit__button {
     border-radius: 4px;
     transition: background-color 0.25s ease-in-out;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 18px;
@@ -72,7 +77,7 @@
 }
 
 .copyrights {
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -82,28 +87,39 @@
     margin: 92px auto 0 auto;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 999px) {
     .visit__content {
-        position: absolute;
-        width: 656px;
-        left: 173px;
-        bottom: 240px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
     }
     .visit__form {
         max-width: 21%;
         margin: 0 auto;
     }
+    .visit {
+        background-repeat: no-repeat;
+        margin: 0 auto 0 auto;
+        background-image: url(../images/__overlay.jpg);
+        width: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {
     .visit__content {
-        position: absolute;
-        width: 288px;
-        left: 28px;
-        bottom: 108px;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+    }
+    .visit {
+        background-repeat: no-repeat;
+        margin: 0 auto 0 auto;
+        background-image: url(../images/__overlay.jpg);
+        width: 100%;
+        height: 740px;
     }
     .visit__title {
-        font-family: 'Inter';
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 900;
         font-size: 32px;
@@ -113,7 +129,7 @@
         margin: 0 0 16px 0;
     }
     .visit__paragraf {
-        font-family: 'Inter';
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;
@@ -131,7 +147,7 @@
         z-index: -1;
     }
     .copyrights {
-        font-family: 'Inter';
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 14px;

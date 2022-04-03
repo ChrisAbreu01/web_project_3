@@ -15,15 +15,14 @@
     object-fit: cover;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 999px) {
     .gallery {
         display: grid;
-        grid-template-columns: 46% 46%;
+        grid-template-columns: 352px 1fr;
         grid-template-rows: auto;
         min-height: 100%;
         margin: 90px 24px 88px 24px;
         gap: 16px;
-        width: 768px;
     }
 }
 

@@ -12,9 +12,6 @@
 </head>
 
 <body>
-    <!-- hi, i think i fixed some of the problems you mention before, i need more insight on this part: Please pay attention to the places section. To assign different margins to elements based on their order, please use structural pseudo-classes. -->
-    <!--  and insight on this: All content sections need a semantic tag section, instead of div, if i make them sections instead of div is going to give me an error saying that it needs an H tag  -->
-
     <!--body section of the page starts here -->
 
     <div class="page">
@@ -32,14 +29,14 @@
                 </section>
                 <!--header section of the page ends here -->
                 <!--intro section of the page starts here -->
-                <div class="intro">
-                    <p class="intro__title">Know the places your online pals come from a little better</p>
+                <section class="intro">
+                    <h2 class="intro__title">Know the places your online pals come from a little better</h2>
                     <p class="intro__subtitle">Every human being is an artist, a freedom being, called to participate in transforming and reshaping the conditions, thinking, and structures that shape and inform our lives.</p>
                     <p class="intro__subtitle-name">— Joseph Beuys</p>
                     <p class="intro__body">The town of Practicum has brought together professionals from different corners of the world. Today, Practicum Art Gallery is proud to present stories and pictures from some of the people who dedicate their time and effort to making
                         the future tech professionals of this town feel at home. Each of us has a unique story about the place we come from. Feel free to add your own story and a piece of visual art dedicated to your hometown to our collection. No matter
                         where you're from, we're glad that you're our neighbor.</p>
-                </div>
+                </section>
                 <!--intro section of the page ends here -->
                 <!--gallery section of the page starts here -->
                 <div class="gallery">
@@ -140,10 +137,9 @@
                 </div>
 
                 <!--places section of the page ends here -->
-                <div class="visit">
-                    <img src="./images/__overlay.jpg" alt="visit us" class="visit__backgound">
+                <section class="visit">
                     <div class="visit__content">
-                        <p class="visit__title">Visit us</p>
+                        <h2 class="visit__title">Visit us</h2>
                         <ul class="visit__paragraf">
                             <li>Year-round</li>
                             <li>Practicum Art Gallery</li>
@@ -155,7 +151,7 @@
                             </fieldset>
                         </form>
                     </div>
-                </div>
+                </section>
                 <p class="copyrights">© 2022 Christopher Abreu</p>
             </main>
         </div>

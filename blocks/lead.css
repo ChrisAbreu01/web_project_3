@@ -5,7 +5,7 @@
 
 .lead__title {
     width: 984px;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 900;
     font-size: 96px;
@@ -18,7 +18,7 @@
 .lead__subtitle {
     width: 984px;
     margin: 32px auto 64px auto;
-    font-family: 'Inter';
+    font-family: 'Inter', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 30px;
@@ -33,15 +33,26 @@
     margin: 0 auto 0 auto;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 999px) {
     .lead {
-        width: 768px;
+        width: 100%;
         margin: 140px auto 0 auto;
     }
+    .lead__title {
+        width: 100%;
+        font-family: 'Inter', sans-serif;
+        font-style: normal;
+        font-weight: 900;
+        font-size: 96px;
+        line-height: 100px;
+        margin: 0 auto 0 auto;
+        text-align: center;
+        color: #FFFFFF;
+    }
     .lead__subtitle {
-        width: 720px;
+        width: 100%;
         margin: 32px auto 36px auto;
-        font-family: 'Inter';
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 30px;
@@ -50,7 +61,7 @@
         color: #FFFFFF;
     }
     .lead__image {
-        width: 768px;
+        width: 100%;
         height: 615px;
         margin: 0 auto 0 auto;
     }
@@ -58,13 +69,13 @@
 
 @media screen and (max-width: 600px) {
     .lead {
-        width: 288px;
+        width: 100%;
         margin: 122px auto 0 auto;
     }
     .lead__subtitle {
         width: 288px;
         margin: 16px auto 40px auto;
-        font-family: 'Inter';
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 400;
         font-size: 16px;
@@ -73,12 +84,12 @@
         color: #FFFFFF;
     }
     .lead__image {
-        width: 320px;
+        width: 100%;
         margin: 0 auto 0 auto;
     }
     .lead__title {
         width: 288px;
-        font-family: 'Inter';
+        font-family: 'Inter', sans-serif;
         font-style: normal;
         font-weight: 900;
         font-size: 40px;
