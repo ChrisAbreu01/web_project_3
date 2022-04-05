@@ -1,6 +1,6 @@
 .lead {
     width: 984px;
-    margin: 194px auto 0 auto;
+    margin: 90px auto 0 auto;
 }
 
 .lead__title {
@@ -33,7 +33,7 @@
     margin: 0 auto 0 auto;
 }
 
-@media screen and (max-width: 999px) {
+@media screen and (max-width: 1000px) {
     .lead {
         width: 100%;
         margin: 140px auto 0 auto;
@@ -70,7 +70,7 @@
 @media screen and (max-width: 600px) {
     .lead {
         width: 100%;
-        margin: 122px auto 0 auto;
+        margin: 50px auto 0 auto;
     }
     .lead__subtitle {
         width: 288px;
@@ -97,5 +97,13 @@
         text-align: center;
         color: #FFFFFF;
         margin: 0 auto 0 auto;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .lead__image {
+        width: 100%;
+        margin: 0 auto 0 auto;
+        max-height: 200px;
     }
 }

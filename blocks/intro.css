@@ -43,7 +43,7 @@
             color: #FFFFFF;
         }
         
-        @media screen and (max-width: 999px) {
+        @media screen and (max-width: 1000px) {
             .intro {
                 max-width: 720px;
                 margin: 88px 24px 0 24px;
@@ -54,8 +54,10 @@
         @media screen and (max-width: 600px) {
             .intro {
                 max-width: 720px;
-                margin: 64px 16px 0 16px;
+                padding: 64px 16px 0 16px;
                 width: 100%;
+                box-sizing: border-box;
+                margin: 0;
             }
             .intro__title {
                 font-family: 'Inter', sans-serif;
