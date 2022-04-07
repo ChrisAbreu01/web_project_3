@@ -36,6 +36,10 @@
     padding: 0;
 }
 
+.visit__paragraf-item {
+    margin: 0;
+}
+
 .visit__content {
     width: 100%;
     display: flex;
