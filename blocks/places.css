@@ -115,7 +115,7 @@
         grid-column-gap: 28px;
         grid-row-gap: 0px;
     }
-    .place__last {
+    .place-last {
         margin: 0 auto 92px auto;
     }
     .place__image {
