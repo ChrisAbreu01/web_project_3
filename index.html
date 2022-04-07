@@ -14,9 +14,9 @@
 <body>
     <!--body section of the page starts here -->
 
+
     <div class="page">
         <div class="page__content">
-
             <!--header section of the page starts here -->
             <header class="header">
                 <img src="./__logo.svg" alt="Practicum art gallery Logo" class="header__logo" />
@@ -39,7 +39,7 @@
                 </section>
                 <!--intro section of the page ends here -->
                 <!--gallery section of the page starts here -->
-                <div class="gallery">
+                <section class="gallery">
                     <img class="gallery__image" src="./images/__item1.png" alt="item 1" data-type="auto">
                     <img class="gallery__image" src="./images/__item2.png" alt="item 2" data-type="auto">
                     <img class="gallery__image" src="./images/__item3.png" alt="item 3" data-type="auto">
@@ -48,15 +48,15 @@
                     <img class="gallery__image" src="./images/__item6.png" alt="item 6" data-type="auto">
                     <img class="gallery__image" src="./images/__item7.png" alt="item 7" data-type="auto">
                     <img class="gallery__image" src="./images/__item8.png" alt="item 8" data-type="auto">
-                </div>
+                </section>
                 <!--gallery section of the page ends here -->
                 <!--places section of the page starts here -->
 
-                <div class="places">
+                <section class="places">
                     <div class="place">
-                        <p class="place__title">Kyiv, Ukraine</p>
+                        <h2 class="place__title">Kyiv, Ukraine</h2>
                         <div class="place__artist">
-                            <p class="place__heading">ARTIST</p>
+                            <p class="place__heading">artist</p>
                             <p class="place__artist-name">Natalia Dolgushina, content producer</p>
                         </div>
                         <img class="place__image" src="./images/ukraine__image.png" alt="Ukraine">
@@ -66,20 +66,14 @@
                             <p class="place__paragraf">The city itself is a mix of pre-revolution, post-war and soviet architecture, all of it sprinkled with modified balconies. If you're on the right bank of the Dnipro, the landscape is difficult to traverse for people on bikes
                                 and those wearing heels. The left bank is considered far less interesting and prestigious though, even by people who live on the far outskirts of the right one.</p>
                         </div>
-                        <form class="form">
-                            <fieldset class="form__fieldset-button-area">
-                                <button type="submit" class="form__button">Buy this artwork as NFT</button>
-                            </fieldset>
-                        </form>
+                        <a href="#" class="place__button">Buy this artwork as NFT</a>
                     </div>
                     <div class="place">
-                        <p class="place__title">Cricieth, Wales</p>
+                        <h2 class="place__title">Cricieth, Wales</h2>
                         <div class="place__artist">
-                            <p class="place__heading">ARTIST</p>
-                            <ul class="place__artist-name">
-                                <li> Warren, lead editor</li>
-                                <li>Kseniya Glagoleva, project manager</li>
-                            </ul>
+                            <p class="place__heading">artist</p>
+                            <p class="place__artist-name place__artist-name-mid"> Warren, lead editor</p>
+                            <p class="place__artist-name">Kseniya Glagoleva, project manager</p>
                         </div>
                         <img class="place__image" src="./images/wales__image.png" alt="wales">
                         <div class="place__description">
@@ -88,16 +82,12 @@
                             <p class="place__paragraf">A short walk down the road from the castle, you can enjoy the world's best ice cream at Cadwalader's, whose secret ingredient is rumored to be locally sourced seaweed. Another claim to fame is the fact that Cricieth won the
                                 Wales in Bloom award for five years in a row for its spectacular floral displays around town. It was also home to David Lloyd George, the only Welshman ever to hold the office of Prime Minister of the UK.</p>
                         </div>
-                        <form class="form">
-                            <fieldset class="form__fieldset-button-area">
-                                <button type="submit" class="form__button">Buy this artwork as NFT</button>
-                            </fieldset>
-                        </form>
+                        <a href="#" class="place__button">Buy this artwork as NFT</a>
                     </div>
                     <div class="place">
-                        <p class="place__title">Berea, USA</p>
+                        <h2 class="place__title">Berea, USA</h2>
                         <div class="place__artist">
-                            <p class="place__heading">ARTIST</p>
+                            <p class="place__heading">artist</p>
                             <p class="place__artist-name">Travis Turner, author and editor</p>
                         </div>
                         <img class="place__image" src="./images/berea__image.png" alt="berea">
@@ -107,16 +97,13 @@
                             <p class="place__paragraf">However, it's probably known best for the local college. Berea College was founded in 1855 and was the first college in the south to be racially integrated, as well as the first to be coeducational. Somewhat uniquely, it charges
                                 no tuition — every student receives a full-tuition scholarship.</p>
                         </div>
-                        <form class="form">
-                            <fieldset class="form__fieldset-button-area">
-                                <button type="submit" class="form__button">Buy this artwork as NFT</button>
-                            </fieldset>
-                        </form>
+                        <a href="#" class="place__button">Buy this artwork as NFT</a>
+
                     </div>
-                    <div class="place">
-                        <p class="place__title">Muramvya, Burundi</p>
+                    <div class="place place__last">
+                        <h2 class="place__title">Muramvya, Burundi</h2>
                         <div class="place__artist">
-                            <p class="place__heading">ARTIST</p>
+                            <p class="place__heading">artist</p>
                             <p class="place__artist-name">Grevisse Kenguruka, tech editor</p>
                         </div>
                         <img class="place__image" src="./images/burundi__image.png" alt="Ukraine">
@@ -125,32 +112,28 @@
                                 located in the center of Burundi, between the country's political and economic capitals</p>
                             <p class="place__paragraf">The weather is rather chilly at night, but during the day, you would think you're in heaven. At 2,665 meters (8,743 ft) above sea level, Mount Teza is one of the coldest places in the province. But that cool breeze allows for
                                 one of the largest plantations of tea and coffee in the country, which make up the bulk of Burundi's exports.</p>
-                            <p class="place__paragraf">The Kibira National Park, one of the largest wildlife reserves for apes, overlaps four provinces, including Muramvya. This National Park lies at the apex of the beautiful mountains of the Congo-Nile Divide, ranging between
+                            <p class="place__paragraf place__paragraf-last">The Kibira National Park, one of the largest wildlife reserves for apes, overlaps four provinces, including Muramvya. This National Park lies at the apex of the beautiful mountains of the Congo-Nile Divide, ranging between
                                 1550 and 2660 meters of altitude. It is filled with beautiful vegetation, and a source for the various rivers and streams which provide water around the country.</p>
                         </div>
-                        <form class="form">
-                            <fieldset class="form__fieldset-button-area">
-                                <button type="submit" class="form__button">Buy this artwork as NFT</button>
-                            </fieldset>
-                        </form>
+                        <a href="#" class="place__button">Buy this artwork as NFT</a>
+
                     </div>
-                </div>
+                </section>
 
                 <!--places section of the page ends here -->
                 <section class="visit">
-                    <img class="visit__image" src="../images/__overlay.jpg" alt="overlay">
                     <div class="visit__content">
                         <h2 class="visit__title">Visit us</h2>
-                        <ul class="visit__paragraf">
-                            <li>Year-round</li>
-                            <li>Practicum Art Gallery</li>
-                            <li>404 Tim Berners-Lee Ave</li>
-                        </ul>
-                        <button type="submit" class="visit__button">Buy tickets</button>
+                        <div class="visit__paragraf">
+                            <p>Year-round<br> Practicum Art Gallery <br> 404Tim Berners-Lee Ave</p>
+                        </div>
+                        <a href="#" class="visit__button">Buy tickets</a>
                     </div>
                 </section>
-                <p class="copyrights">© 2022 Christopher Abreu</p>
             </main>
+            <footer>
+                <p class="footer__copyrights">© 2022 Christopher Abreu</p>
+            </footer>
         </div>
     </div>
     <!--content section of the page ends here -->

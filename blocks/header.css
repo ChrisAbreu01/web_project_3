@@ -1,24 +1,20 @@
 .header__logo {
-    width: 17.59vw;
-    height: 17vh;
+    width: 100%;
+    max-width: 270px;
+    height: 100%;
+    min-height: 70px;
+    margin: 34px auto 0 auto;
     display: flex;
-    margin: 36px auto 0 auto;
 }
 
-@media screen and (max-width: 1000px) {
-    .header__logo {
-        width: 270px;
-        height: 70px;
-        display: flex;
-        margin: 34px auto 0 auto;
-    }
-}
+@media screen and (max-width: 1000px) {}
 
 @media screen and (max-width: 600px) {
     .header__logo {
-        width: 63vw;
-        height: 16vh;
-        display: flex;
+        width: 100%;
+        max-width: 200px;
+        height: 100%;
+        min-height: 52px;
         margin: 20px auto 0 auto;
     }
 }

@@ -2,7 +2,6 @@
     display: grid;
     grid-template-columns: 24% 24% 24% 24%;
     grid-template-rows: auto;
-    min-height: 100%;
     margin: 118px 48px 92px 48px;
     gap: 16px;
 }
@@ -17,23 +16,15 @@
 
 @media screen and (max-width: 1000px) {
     .gallery {
-        display: grid;
-        grid-template-columns: 352px 1fr;
-        grid-template-rows: auto;
-        min-height: 100%;
+        grid-template-columns: 48.85% 48.85%;
         margin: 90px 24px 88px 24px;
-        gap: 16px;
     }
 }
 
 @media screen and (max-width: 600px) {
     .gallery {
-        display: grid;
         grid-template-columns: 288px;
-        grid-template-rows: auto;
-        min-height: 100%;
-        margin: 90px 16px 88px 16px;
-        gap: 16px;
+        margin: 90px auto 98px auto;
         width: 288px;
     }
 }

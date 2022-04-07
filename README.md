@@ -1,19 +1,17 @@
-# Project 3: From Homeland to Homeland
+From Homeland to Homeland
 ### Overview  
-* Intro  
-* Figma  
-* Images  
+* Intro 
+* Tecnologies  
+* Future plans  
   
 **Intro**    
   
-This is a project that showcases the hometowns of some of Practicum's employees. We've made it so all the elements are displayed correctly on popular screen sizes. We recommend investing more time in completing this project, since it's more difficult than previous ones.  
+This is a project that showcases the hometowns of some of Practicum's tutors and personel, they share some interesting information about the places they come from, share some of there culture and offer to buy as and NFT pictures of their hometowns.
   
-**Figma**  
+**Tecnologies**  
   
-* [Link to the project on Figma](https://www.figma.com/file/1zCYcflj6BJx5VqOvXU9nb/Sprint-3-From-Homeland-to-Homeland-desktop-mobile?node-id=0%3A1)  
+*  in this project we implement useful tecnologies just to name some: flex-box, grid layout, CSS, HTML, with a BEM structure.       
   
-**Images**  
+**Future plans**  
   
-The way you'll do this at work is by exporting images directly from Figma — we recommend doing that to practice more. Don't forget to optimize them [here](https://tinypng.com/), so your project loads faster. 
-  
-Good luck and have fun!  
+  Use this website as a blueprint for new websites, improve and scale the project for bigger needs. 
