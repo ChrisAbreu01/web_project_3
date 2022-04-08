@@ -11,13 +11,6 @@
 
 @media screen and (max-width: 600px) {
     .footer__copyrights {
-        font-family: 'Inter', sans-serif;
-        font-style: normal;
-        font-weight: 400;
-        font-size: 14px;
-        line-height: 16px;
-        text-align: center;
-        color: #FFFFFF;
         margin: 64px auto 24px auto;
     }
 }

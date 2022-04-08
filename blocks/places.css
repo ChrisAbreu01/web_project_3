@@ -107,28 +107,28 @@
 @media screen and (max-width: 1000px) {
     .places {
         width: 94%;
-        margin: 88px auto 0 auto;
+        margin: 0 auto 0 auto;
     }
     .place {
         grid-template-columns: 340px 1fr;
         margin: 0 auto 72px auto;
         grid-column-gap: 28px;
-        grid-row-gap: 0px;
+        grid-row-gap: 48px;
     }
     .place-last {
         margin: 0 auto 92px auto;
+        grid-row-gap: 48px;
     }
     .place__image {
         margin-bottom: 48px;
         width: 340px;
     }
     .place__artist-name {
-        margin: 0 0 46px 0;
         font-size: 16px;
         line-height: 163%;
     }
-    .place__artist-name-mid {
-        margin: 1px 0 0 0;
+    .place__artist-name-last {
+        margin: 0;
     }
     .place__paragraf {
         font-size: 16px;
@@ -149,7 +149,7 @@
     }
     .place {
         grid-template-columns: 320px;
-        margin: 0 auto 14px auto;
+        margin: 0 auto 0 auto;
         grid-column-gap: 0px;
         grid-row-gap: 0px;
         grid-template-areas: "title" "artist" "image" "text" "text" "button";
@@ -183,5 +183,8 @@
     .place__button {
         margin: 0 16px 14px 16px;
         max-width: 288px;
+    }
+    .place-last {
+        margin: 0 auto 64px auto;
     }
 }
