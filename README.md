@@ -2,7 +2,8 @@ From Homeland to Homeland
 ### Overview  
 * Intro 
 * Tecnologies  
-* Future plans  
+* Future plans
+* link to the project
   
 **Intro**    
   
@@ -10,8 +11,11 @@ This is a project that showcases the hometowns of some of Practicum's tutors and
   
 **Tecnologies**  
   
-*  in this project we implement useful tecnologies just to name some: flex-box, grid layout, CSS, HTML, with a BEM structure.       
+in this project we implement useful tecnologies just to name some: flex-box, grid layout, CSS, HTML, with a BEM structure.       
   
 **Future plans**  
   
   Use this website as a blueprint for new websites, improve and scale the project for bigger needs. 
+
+**link to the project** 
+  https://github.com/ChrisAbreu01/web_project_3.git

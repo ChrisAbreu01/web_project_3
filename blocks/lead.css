@@ -5,26 +5,20 @@
 
 .lead__title {
     width: 793px;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
     font-weight: 900;
     font-size: 96px;
     line-height: 100px;
     margin: 0 auto 0 auto;
     text-align: center;
-    color: #FFFFFF;
 }
 
 .lead__subtitle {
     width: 720px;
     margin: 32px auto 64px auto;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 30px;
     line-height: 36px;
     text-align: center;
-    color: #FFFFFF;
 }
 
 .lead__image {
@@ -37,7 +31,6 @@
 @media screen and (max-width: 1000px) {
     .lead {
         width: 100%;
-        margin: 90px auto 0 auto;
         display: flex;
         flex-direction: column;
     }
@@ -58,7 +51,6 @@
 
 @media screen and (max-width: 600px) {
     .lead {
-        width: 100%;
         margin: 50.15px auto 0 auto;
     }
     .lead__subtitle {
@@ -68,21 +60,13 @@
         line-height: 20px;
     }
     .lead__image {
-        width: 100%;
         min-width: 320px;
         min-height: 200px;
-        max-height: 340px;
+        height: 100%;
     }
     .lead__title {
         width: 288px;
         font-size: 40px;
         line-height: 44px;
-    }
-}
-
-@media screen and (max-width: 450px) {
-    .lead__image {
-        width: 100%;
-        max-height: 200px;
     }
 }

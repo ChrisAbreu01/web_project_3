@@ -5,10 +5,13 @@
     min-height: 740px;
     max-width: 1184px;
     position: relative;
+    background: url(../images/__overlay.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .visit:hover::before {
-    opacity: 0.3;
+    opacity: 0.8;
     transition: background-color 0.25s ease-in-out;
 }
 
@@ -19,18 +22,14 @@
     font-size: 72px;
     line-height: 76px;
     text-align: center;
-    color: #FFFDFD;
     margin: 0 0 32px 0;
 }
 
 .visit__paragraf {
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
     text-align: center;
-    color: #FFFFFF;
     margin: 0 0 32px 0;
     list-style: none;
     padding: 0;
@@ -51,12 +50,9 @@
 .visit__button {
     border-radius: 4px;
     transition: background-color 0.25s ease-in-out;
-    font-family: 'Inter', sans-serif;
-    font-style: normal;
     font-weight: 600;
     font-size: 18px;
     line-height: 22px;
-    color: #FFFFFF;
     border: none;
     width: 100%;
     background-color: #2F80ED;
@@ -67,6 +63,7 @@
     display: flex;
     justify-content: center;
     max-width: 137px;
+    color: #FFFFFF;
 }
 
 .visit__button:hover {
@@ -75,23 +72,19 @@
 
 .visit::before {
     content: "";
-    background: url(../images/__overlay.jpg);
-    transition: opacity 0.25s ease-in-out;
-    opacity: 0.8;
-    background-size: cover;
-    background-repeat: no-repeat;
-    z-index: 0;
+    opacity: 0.3;
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     left: 0px;
     min-width: 100%;
     min-height: 100%;
     background-position: center;
+    background-color: #2A2C2F;
+    transition: opacity 0.50s ease-in-out;
 }
 
 @media screen and (max-width: 1000px) {
     .visit {
-        background-repeat: no-repeat;
         margin: 0 auto 0 auto;
         width: 100%;
         min-height: 746px;
@@ -100,9 +93,6 @@
 
 @media screen and (max-width: 600px) {
     .visit {
-        background-repeat: no-repeat;
-        margin: 0 auto 0 auto;
-        width: 100%;
         min-height: 254px;
     }
     .visit__title {
