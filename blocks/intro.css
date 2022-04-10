@@ -43,7 +43,7 @@
             .intro {
                 max-width: 720px;
                 margin: 88px 24px 0 24px;
-                width: 94%;
+                width: 100%;
             }
             .intro__title {
                 width: 100%;
@@ -62,7 +62,6 @@
         @media screen and (max-width: 600px) {
             .intro {
                 padding: 64px 16px 0 16px;
-                width: 100%;
                 box-sizing: border-box;
                 margin: 0;
             }
