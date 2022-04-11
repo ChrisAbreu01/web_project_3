@@ -8,6 +8,7 @@
     background: url(../images/__overlay.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center;
 }
 
 .visit:hover::before {
@@ -93,6 +94,7 @@
 @media screen and (max-width: 600px) {
     .visit {
         min-height: 254px;
+        min-width: 321px;
     }
     .visit__title {
         font-size: 32px;

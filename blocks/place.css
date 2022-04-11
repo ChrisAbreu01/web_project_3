@@ -107,10 +107,6 @@
     .place__image {
         width: 340px;
     }
-    .place__artist-name {
-        font-size: 18px;
-        line-height: 22px;
-    }
     .place__artist-name:last-of-type {
         margin: 0;
     }
@@ -137,10 +133,6 @@
     }
     .place__description {
         margin: 0 16px 0 16px;
-    }
-    .place__artist-name {
-        font-size: 18px;
-        line-height: 22px;
     }
     .place__title {
         font-size: 32px;

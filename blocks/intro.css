@@ -43,7 +43,7 @@
             .intro {
                 max-width: 720px;
                 margin: 88px 24px 0 24px;
-                width: 100%;
+                width: calc(100% - 48px);
             }
             .intro__title {
                 width: 100%;
