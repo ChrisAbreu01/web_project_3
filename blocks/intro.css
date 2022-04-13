@@ -61,9 +61,9 @@
         
         @media screen and (max-width: 600px) {
             .intro {
-                padding: 64px 16px 0 16px;
-                box-sizing: border-box;
-                margin: 0;
+                margin: 64px 16px 0 16px;
+                min-width: 288px;
+                width: calc(100% - 36px);
             }
             .intro__title {
                 font-size: 32px;
